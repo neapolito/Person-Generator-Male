@@ -13,4 +13,8 @@ local HaveDL = DriversLicense[math.random(1,#DriversLicense)]
 local ChosenFirstname = FakeNames[math.random(1,#FakeNames)]
 local ChosenLastname = FakeLN[math.random(1,#FakeLN)]
 local Chosenmonth = Months[math.random(1,#Months)]
+if iPhoneNum == 9 then
+  iPhoneNum = 10 
+end
+
 print ("My name is" .. " "  .. ChosenFirstname .. " " .. ChosenLastname .. "." .. " " .. "I was born" .. Chosenmonth .. " " .. Days .. "," .. " " .. Year .. "." .. " " .. HaveDL .. " " .. "I own an iPhone" .. " " .. iPhoneNum .. "." .. " " .. "I have" .. " " .. SibNum .. " " .. "sibling(s)." .. " " .. WTCollege .. " " .. "My salary is $" .. Salary)
